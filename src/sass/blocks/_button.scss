@@ -9,6 +9,7 @@
     padding: 8px 50px;
     transition: all .3s ease;
     position: relative;
+    border-radius: 0;
     &::after{
         content: '';
         position: absolute;
@@ -20,6 +21,7 @@
     }
     &:hover{
         background: #8D8D8D;
+        color: #fff;
     }
 
 }
